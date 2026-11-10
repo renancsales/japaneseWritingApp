@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日記 Grammar Journal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-jp">日記</span> Grammar Journal</div>
+    <label class="level">JLPT
+      <select id="level"></select>
+    </label>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="today">Today</button>
+    <button class="tab" data-tab="cards">Flashcards <span id="due-badge" class="badge" hidden></span></button>
+    <button class="tab" data-tab="vocab">Vocabulary</button>
+    <button class="tab" data-tab="history">History</button>
+  </nav>
+
+  <main>
+    <!-- TODAY -->
+    <section id="tab-today" class="panel active">
+      <article class="card grammar" id="grammar-card">
+        <div class="grammar-head">
+          <div>
+            <div class="eyebrow" id="g-date"></div>
+            <h1 id="g-pattern">…</h1>
+            <p class="meaning" id="g-meaning"></p>
+          </div>
+          <button class="ghost" id="reroll" title="Pick a different grammar point for today">↻ Another</button>
+        </div>
+        <p class="formation"><strong>Formation:</strong> <span id="g-formation"></span></p>
+        <p id="g-explanation"></p>
+        <ul class="examples" id="g-examples"></ul>
+      </article>
+
+      <div class="write-grid">
+        <article class="card">
+          <h2>Write today's entry</h2>
+          <p class="prompt" id="g-prompt"></p>
+          <textarea id="entry" rows="7" placeholder="今日は…"></textarea>
+          <div class="row">
+            <span class="hint" id="char-count">0 characters</span>
+            <button class="primary" id="submit">Check my Japanese</button>
+          </div>
+        </article>
+
+        <aside class="card">
+          <h2>Need a word?</h2>
+          <p class="hint">Describe what you want to say in English or Japanese.</p>
+          <div class="row">
+            <input id="suggest-q" placeholder="e.g. 'commute', 'to be exhausted'">
+            <button id="suggest-btn">Suggest</button>
+          </div>
+          <div id="suggestions"></div>
+        </aside>
+      </div>
+
+      <article class="card" id="feedback" hidden></article>
+    </section>
+
+    <!-- FLASHCARDS -->
+    <section id="tab-cards" class="panel">
+      <div id="cards-area"></div>
+    </section>
+
+    <!-- VOCAB -->
+    <section id="tab-vocab" class="panel">
+      <article class="card">
+        <div class="row space">
+          <h2>Your words <span class="hint" id="vocab-count"></span></h2>
+          <input id="vocab-filter" placeholder="Filter…">
+        </div>
+        <table class="vocab">
+          <thead><tr><th>Word</th><th>Reading</th><th>Meaning</th><th>Seen</th><th>Next review</th><th></th></tr></thead>
+          <tbody id="vocab-body"></tbody>
+        </table>
+      </article>
+    </section>
+
+    <!-- HISTORY -->
+    <section id="tab-history" class="panel">
+      <div id="history-list"></div>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
