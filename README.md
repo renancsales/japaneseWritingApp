@@ -21,13 +21,12 @@ you use is saved to a flashcard deck with spaced repetition.
 
 ## Run
 
-Requires Python 3.10+ and an Anthropic API key.
+Requires [uv](https://docs.astral.sh/uv/), Python 3.10+ and an Anthropic API key.
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\pip install -r requirements.txt
+uv sync
 $env:ANTHROPIC_API_KEY = "sk-ant-..."
-.venv\Scripts\python -m uvicorn app.main:app --app-dir src --reload
+uv run uvicorn app.main:app --reload
 ```
 
 Then open http://127.0.0.1:8000.
@@ -37,7 +36,7 @@ Data is stored in `data/app.db` (SQLite). You can override the location with `JW
 ## Tests
 
 ```powershell
-.venv\Scripts\python -m pytest -q
+uv run pytest -q
 ```
 
 The tests mock the Claude calls, so they don't need an API key.

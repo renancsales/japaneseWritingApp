@@ -1,0 +1,434 @@
+[
+  {
+    "id": "n3-you-ni-suru",
+    "pattern": "〜ようにする",
+    "meaning": "to make an effort to; to make sure that",
+    "formation": "V (dictionary / ない form) + ようにする",
+    "explanation": "Expresses a conscious, ongoing effort to do (or not do) something as a habit. ようにしている describes a habit you are currently maintaining.",
+    "examples": [
+      {"japanese": "毎日野菜を食べるようにしています。", "english": "I make a point of eating vegetables every day."},
+      {"japanese": "夜遅くまでスマホを見ないようにする。", "english": "I try not to look at my phone until late at night."}
+    ],
+    "prompt": "What is something you try to do (or avoid) every day?"
+  },
+  {
+    "id": "n3-you-ni-naru",
+    "pattern": "〜ようになる",
+    "meaning": "to come to (be able to); to reach the point where",
+    "formation": "V (dictionary / potential / ない form) + ようになる",
+    "explanation": "Describes a gradual change in ability, habit, or situation. Often used with potential verbs to say you can now do something you couldn't before.",
+    "examples": [
+      {"japanese": "日本語の新聞が読めるようになりました。", "english": "I've become able to read Japanese newspapers."},
+      {"japanese": "最近、朝早く起きるようになった。", "english": "Recently I've started waking up early."}
+    ],
+    "prompt": "What can you do now that you couldn't do before?"
+  },
+  {
+    "id": "n3-koto-ni-suru",
+    "pattern": "〜ことにする",
+    "meaning": "to decide to",
+    "formation": "V (dictionary / ない form) + ことにする",
+    "explanation": "Expresses a decision made by the speaker. ことにしている means it is a rule you have set for yourself.",
+    "examples": [
+      {"japanese": "来年、日本へ留学することにしました。", "english": "I decided to study abroad in Japan next year."},
+      {"japanese": "お酒は飲まないことにしている。", "english": "I've made it a rule not to drink alcohol."}
+    ],
+    "prompt": "What did you decide to do today or recently?"
+  },
+  {
+    "id": "n3-koto-ni-naru",
+    "pattern": "〜ことになる",
+    "meaning": "it has been decided that; it turns out that",
+    "formation": "V (dictionary / ない form) + ことになる",
+    "explanation": "Indicates a decision or outcome determined by circumstances or other people, not by the speaker alone. ことになっている expresses an established rule or arrangement.",
+    "examples": [
+      {"japanese": "来月から大阪で働くことになりました。", "english": "It's been decided that I'll work in Osaka from next month."},
+      {"japanese": "この部屋では靴を脱ぐことになっている。", "english": "The rule is that you take off your shoes in this room."}
+    ],
+    "prompt": "Is there something that was decided for you, or a rule you have to follow?"
+  },
+  {
+    "id": "n3-ta-bakari",
+    "pattern": "〜たばかり",
+    "meaning": "just did; have just",
+    "formation": "V (た form) + ばかり",
+    "explanation": "Indicates that very little time has passed since an action — subjectively 'just'. Compared to たところ, ばかり can cover a longer period if it feels recent to the speaker.",
+    "examples": [
+      {"japanese": "さっき昼ご飯を食べたばかりです。", "english": "I just ate lunch a moment ago."},
+      {"japanese": "この靴は先週買ったばかりなのに、もう壊れた。", "english": "I only bought these shoes last week, but they're already broken."}
+    ],
+    "prompt": "What is something you have only just done or started?"
+  },
+  {
+    "id": "n3-tokoro-da",
+    "pattern": "〜ところだ",
+    "meaning": "about to / in the middle of / just finished",
+    "formation": "V (dictionary) + ところ = about to; V-ている + ところ = in the middle of; V-た + ところ = just finished",
+    "explanation": "Focuses on a specific point in time relative to an action. The verb form before ところ decides whether the action is about to happen, in progress, or just completed.",
+    "examples": [
+      {"japanese": "今から出かけるところです。", "english": "I'm just about to go out."},
+      {"japanese": "今、晩ご飯を作っているところだ。", "english": "I'm in the middle of making dinner right now."}
+    ],
+    "prompt": "Describe what you are doing, about to do, or just finished right now."
+  },
+  {
+    "id": "n3-hazu-da",
+    "pattern": "〜はずだ",
+    "meaning": "should be; is expected to",
+    "formation": "Plain form + はずだ (な-adj + な, N + の)",
+    "explanation": "Expresses the speaker's confident expectation based on logic or information. はずがない means 'there's no way that'.",
+    "examples": [
+      {"japanese": "彼はもう家に着いているはずだ。", "english": "He should have arrived home by now."},
+      {"japanese": "あんなに練習したのだから、合格するはずだ。", "english": "After practicing that much, she should pass."}
+    ],
+    "prompt": "What do you expect will happen tomorrow, and why?"
+  },
+  {
+    "id": "n3-wake-dewa-nai",
+    "pattern": "〜わけではない",
+    "meaning": "it doesn't mean that; not necessarily",
+    "formation": "Plain form + わけではない (な-adj + な, N + という)",
+    "explanation": "Partially denies a conclusion that could be drawn from what was said. Softer than a direct negation.",
+    "examples": [
+      {"japanese": "料理が嫌いなわけではないが、時間がない。", "english": "It's not that I dislike cooking, but I don't have time."},
+      {"japanese": "高いものがいつも良いわけではない。", "english": "Expensive things aren't necessarily always good."}
+    ],
+    "prompt": "Write about something people might assume about you that isn't quite true."
+  },
+  {
+    "id": "n3-wake-da",
+    "pattern": "〜わけだ",
+    "meaning": "that's why; no wonder; so it means",
+    "formation": "Plain form + わけだ (な-adj + な, N + という / な)",
+    "explanation": "States a natural conclusion or explanation reached from facts. Often used when something finally makes sense.",
+    "examples": [
+      {"japanese": "10年も住んでいたのか。日本語が上手なわけだ。", "english": "You lived there 10 years? No wonder your Japanese is good."},
+      {"japanese": "道が混んでいる。祭りがあるわけだ。", "english": "The roads are crowded. So there's a festival."}
+    ],
+    "prompt": "Describe something today that made sense once you found out why."
+  },
+  {
+    "id": "n3-tame-ni",
+    "pattern": "〜ために",
+    "meaning": "in order to; for the sake of; because of",
+    "formation": "V (dictionary) / N + の + ために (purpose); plain form + ために (cause)",
+    "explanation": "With a volitional verb it expresses purpose (the subject of both clauses is the same). With past or non-volitional forms it expresses cause, in a more formal tone than から.",
+    "examples": [
+      {"japanese": "家を買うために、お金を貯めている。", "english": "I'm saving money in order to buy a house."},
+      {"japanese": "大雪のために、電車が止まった。", "english": "The trains stopped because of heavy snow."}
+    ],
+    "prompt": "What are you working toward, and what are you doing for it?"
+  },
+  {
+    "id": "n3-you-ni",
+    "pattern": "〜ように",
+    "meaning": "so that; in order that",
+    "formation": "V (dictionary / potential / ない form) + ように",
+    "explanation": "Expresses a goal that is not directly controllable, often with potential or negative verbs. Unlike ために, the verb before ように is usually non-volitional.",
+    "examples": [
+      {"japanese": "忘れないように、メモを書いた。", "english": "I wrote a note so that I wouldn't forget."},
+      {"japanese": "後ろの人にも聞こえるように、大きい声で話した。", "english": "I spoke loudly so the people at the back could hear."}
+    ],
+    "prompt": "What did you do today so that something would (or wouldn't) happen?"
+  },
+  {
+    "id": "n3-rashii",
+    "pattern": "〜らしい",
+    "meaning": "I hear that; it seems; typical of",
+    "formation": "Plain form + らしい (な-adj / N without だ); N + らしい (typical)",
+    "explanation": "As hearsay/inference: conveys information based on what you've heard or indirect evidence. After a noun it can mean 'befitting' or 'typical of'.",
+    "examples": [
+      {"japanese": "明日は雨が降るらしい。", "english": "I hear it's going to rain tomorrow."},
+      {"japanese": "今日は春らしい暖かい日だった。", "english": "Today was a warm, truly spring-like day."}
+    ],
+    "prompt": "Share something you heard recently, or something that felt 'typical'."
+  },
+  {
+    "id": "n3-mitai-da",
+    "pattern": "〜みたいだ",
+    "meaning": "seems like; looks like; like",
+    "formation": "Plain form + みたいだ (な-adj / N without だ)",
+    "explanation": "Casual equivalent of ようだ. Expresses a guess based on what you observe, or a comparison ('like a ~').",
+    "examples": [
+      {"japanese": "隣の家には誰もいないみたいだ。", "english": "It seems nobody is home next door."},
+      {"japanese": "あの雲は魚みたいな形をしている。", "english": "That cloud is shaped like a fish."}
+    ],
+    "prompt": "Describe something that seemed a certain way to you today."
+  },
+  {
+    "id": "n3-ppoi",
+    "pattern": "〜っぽい",
+    "meaning": "-ish; tends to; looks like",
+    "formation": "N / V-stem / い-adj stem + っぽい",
+    "explanation": "Casual suffix meaning something has a quality of X (子供っぽい), or someone tends to do X (忘れっぽい). Conjugates like an い-adjective.",
+    "examples": [
+      {"japanese": "最近、忘れっぽくなった。", "english": "I've become forgetful lately."},
+      {"japanese": "今日は熱っぽいので、早く寝ます。", "english": "I feel a bit feverish today, so I'll go to bed early."}
+    ],
+    "prompt": "Describe yourself or something around you with an '-ish' quality."
+  },
+  {
+    "id": "n3-ba-hodo",
+    "pattern": "〜ば〜ほど",
+    "meaning": "the more ..., the more ...",
+    "formation": "V-ば + V (dictionary) + ほど; い-adj-ければ + い-adj + ほど; な-adj + なら + な-adj + な + ほど",
+    "explanation": "Expresses that as one thing increases, another changes proportionally. The same word is repeated in the ば form and before ほど.",
+    "examples": [
+      {"japanese": "練習すればするほど上手になる。", "english": "The more you practice, the better you get."},
+      {"japanese": "考えれば考えるほど分からなくなった。", "english": "The more I thought about it, the less I understood."}
+    ],
+    "prompt": "What gets better (or worse) the more you do it?"
+  },
+  {
+    "id": "n3-ni-totte",
+    "pattern": "〜にとって",
+    "meaning": "for; from the standpoint of",
+    "formation": "N + にとって",
+    "explanation": "Presents a judgment or evaluation from someone's perspective. Usually followed by evaluative words like 大切, 難しい, 必要.",
+    "examples": [
+      {"japanese": "私にとって、家族が一番大切です。", "english": "For me, family is the most important thing."},
+      {"japanese": "子供にとって、この本は少し難しい。", "english": "This book is a bit difficult for children."}
+    ],
+    "prompt": "What is important or difficult for you right now?"
+  },
+  {
+    "id": "n3-ni-yotte",
+    "pattern": "〜によって",
+    "meaning": "depending on; by (means of / agent)",
+    "formation": "N + によって / による + N",
+    "explanation": "Indicates variation ('it differs depending on'), the agent of a passive sentence (formal), cause, or means.",
+    "examples": [
+      {"japanese": "国によって文化が違う。", "english": "Culture differs depending on the country."},
+      {"japanese": "この小説は有名な作家によって書かれた。", "english": "This novel was written by a famous author."}
+    ],
+    "prompt": "Write about something that changes depending on the day, place or person."
+  },
+  {
+    "id": "n3-toshite",
+    "pattern": "〜として",
+    "meaning": "as; in the role of",
+    "formation": "N + として",
+    "explanation": "Indicates a role, position, status or capacity. としては can mean 'as for (someone in that position)'.",
+    "examples": [
+      {"japanese": "彼は通訳として会議に参加した。", "english": "He took part in the meeting as an interpreter."},
+      {"japanese": "趣味として写真を撮っている。", "english": "I take photos as a hobby."}
+    ],
+    "prompt": "In what role did you act today (at work, at home, as a friend...)?"
+  },
+  {
+    "id": "n3-ta-totan",
+    "pattern": "〜たとたん(に)",
+    "meaning": "as soon as; the moment that",
+    "formation": "V (た form) + とたん(に)",
+    "explanation": "Something unexpected happens immediately after an action. Not used for the speaker's own intentional follow-up actions.",
+    "examples": [
+      {"japanese": "家を出たとたん、雨が降り出した。", "english": "The moment I left the house, it started raining."},
+      {"japanese": "立ち上がったとたんに、めまいがした。", "english": "As soon as I stood up, I felt dizzy."}
+    ],
+    "prompt": "Describe something surprising that happened right after you did something."
+  },
+  {
+    "id": "n3-uchi-ni",
+    "pattern": "〜うちに",
+    "meaning": "while; before (a state changes)",
+    "formation": "V (dictionary / ている / ない form) / い-adj / な-adj + な / N + の + うちに",
+    "explanation": "Do something while a condition lasts (before it changes), or a change happens unnoticed during a period of time.",
+    "examples": [
+      {"japanese": "温かいうちに食べてください。", "english": "Please eat it while it's warm."},
+      {"japanese": "話しているうちに、彼のことが好きになった。", "english": "While we were talking, I came to like him."}
+    ],
+    "prompt": "What should you do while you still can (while you're young, while it's sunny...)?"
+  },
+  {
+    "id": "n3-saichuu-ni",
+    "pattern": "〜最中に",
+    "meaning": "in the middle of; right in the midst of",
+    "formation": "V-ている + 最中に; N + の + 最中に",
+    "explanation": "Something (often an interruption) happens right in the middle of an action. Stronger than 間に or ているときに.",
+    "examples": [
+      {"japanese": "会議の最中に、電話が鳴った。", "english": "The phone rang right in the middle of the meeting."},
+      {"japanese": "シャワーを浴びている最中に、お湯が出なくなった。", "english": "In the middle of my shower, the hot water stopped."}
+    ],
+    "prompt": "Were you interrupted while doing something today?"
+  },
+  {
+    "id": "n3-shika-nai",
+    "pattern": "〜しかない",
+    "meaning": "have no choice but to; there is nothing to do but",
+    "formation": "V (dictionary) + しかない",
+    "explanation": "Expresses that there is only one option available, often with resignation or determination.",
+    "examples": [
+      {"japanese": "終電を逃したから、タクシーで帰るしかない。", "english": "I missed the last train, so I have no choice but to take a taxi."},
+      {"japanese": "試験まであと一週間。頑張るしかない。", "english": "One week until the exam. There's nothing to do but work hard."}
+    ],
+    "prompt": "Was there something today you simply had to do?"
+  },
+  {
+    "id": "n3-koto-wa-nai",
+    "pattern": "〜ことはない",
+    "meaning": "there is no need to",
+    "formation": "V (dictionary) + ことはない",
+    "explanation": "Tells someone (or yourself) that something isn't necessary, often to reassure. Similar to 必要はない.",
+    "examples": [
+      {"japanese": "簡単な試験だから、心配することはない。", "english": "It's an easy exam, so there's no need to worry."},
+      {"japanese": "わざわざ来ることはないよ。電話でいい。", "english": "No need to come all the way here. A phone call is fine."}
+    ],
+    "prompt": "What would you tell a friend there's no need to worry about?"
+  },
+  {
+    "id": "n3-zu-ni",
+    "pattern": "〜ずに",
+    "meaning": "without doing",
+    "formation": "V (ない form without ない) + ずに (する → せずに)",
+    "explanation": "Written / slightly formal version of ないで. Describes doing one thing without doing another.",
+    "examples": [
+      {"japanese": "今朝は朝ご飯を食べずに家を出た。", "english": "This morning I left home without eating breakfast."},
+      {"japanese": "辞書を使わずに、この記事を読んだ。", "english": "I read this article without using a dictionary."}
+    ],
+    "prompt": "What did you do today without doing something you usually do?"
+  },
+  {
+    "id": "n3-sei-de",
+    "pattern": "〜せいで",
+    "meaning": "because of (negative result); due to",
+    "formation": "Plain form + せいで (な-adj + な, N + の)",
+    "explanation": "Assigns blame for a bad result. せいか means 'perhaps because of'. Contrast with おかげで for positive results.",
+    "examples": [
+      {"japanese": "寝坊したせいで、授業に遅れた。", "english": "Because I overslept, I was late for class."},
+      {"japanese": "雨のせいで、試合が中止になった。", "english": "The game was canceled because of the rain."}
+    ],
+    "prompt": "Did something go wrong today? What caused it?"
+  },
+  {
+    "id": "n3-okage-de",
+    "pattern": "〜おかげで",
+    "meaning": "thanks to",
+    "formation": "Plain form + おかげで (な-adj + な, N + の)",
+    "explanation": "Attributes a good result to someone or something, expressing gratitude. Used sarcastically it can mean the opposite.",
+    "examples": [
+      {"japanese": "先生のおかげで、試験に合格できました。", "english": "Thanks to my teacher, I was able to pass the exam."},
+      {"japanese": "薬を飲んだおかげで、熱が下がった。", "english": "Thanks to taking medicine, my fever went down."}
+    ],
+    "prompt": "What or who are you grateful to today?"
+  },
+  {
+    "id": "n3-wari-ni",
+    "pattern": "〜わりに(は)",
+    "meaning": "considering; for (it's unexpectedly...)",
+    "formation": "Plain form + わりに (な-adj + な, N + の)",
+    "explanation": "Something is different from what you'd expect given a certain fact. Expresses mild surprise.",
+    "examples": [
+      {"japanese": "このレストランは値段のわりにおいしい。", "english": "This restaurant is tasty considering the price."},
+      {"japanese": "たくさん勉強したわりに、点数が低かった。", "english": "Considering how much I studied, my score was low."}
+    ],
+    "prompt": "Was anything today better or worse than you'd expect?"
+  },
+  {
+    "id": "n3-tsuide-ni",
+    "pattern": "〜ついでに",
+    "meaning": "while (doing); on the occasion of",
+    "formation": "V (dictionary / た form) / N + の + ついでに",
+    "explanation": "Taking advantage of doing one thing to also do another, secondary thing.",
+    "examples": [
+      {"japanese": "買い物のついでに、郵便局に寄った。", "english": "While I was out shopping, I stopped by the post office."},
+      {"japanese": "駅へ行くついでに、この手紙を出してくれる？", "english": "Since you're going to the station, could you mail this letter?"}
+    ],
+    "prompt": "What did you do 'while you were at it' today?"
+  },
+  {
+    "id": "n3-te-hoshii",
+    "pattern": "〜てほしい",
+    "meaning": "to want (someone) to do",
+    "formation": "Person + に + V-て + ほしい",
+    "explanation": "Expresses a wish for someone else to do something. Use ないでほしい for 'don't want someone to'.",
+    "examples": [
+      {"japanese": "母にもっと休んでほしい。", "english": "I want my mother to rest more."},
+      {"japanese": "この話は誰にも言わないでほしい。", "english": "I don't want you to tell anyone about this."}
+    ],
+    "prompt": "What do you wish someone around you would do?"
+  },
+  {
+    "id": "n3-furi-wo-suru",
+    "pattern": "〜ふりをする",
+    "meaning": "to pretend to",
+    "formation": "Plain form + ふりをする (な-adj + な, N + の)",
+    "explanation": "Acting as if something is true when it isn't.",
+    "examples": [
+      {"japanese": "弟は寝ているふりをしていた。", "english": "My little brother was pretending to be asleep."},
+      {"japanese": "分からないのに、分かったふりをしてしまった。", "english": "Even though I didn't understand, I pretended I did."}
+    ],
+    "prompt": "Have you ever pretended to do or know something?"
+  },
+  {
+    "id": "n3-to-iu-koto-da",
+    "pattern": "〜ということだ",
+    "meaning": "I heard that; it means that",
+    "formation": "Plain form + ということだ",
+    "explanation": "Reports information (hearsay, more formal than そうだ), or draws a conclusion: 'in other words, it means...'.",
+    "examples": [
+      {"japanese": "ニュースによると、来週から値上げするということだ。", "english": "According to the news, prices will go up from next week."},
+      {"japanese": "返事がないということは、忙しいということだろう。", "english": "No reply probably means they're busy."}
+    ],
+    "prompt": "Report some news or information you learned today."
+  },
+  {
+    "id": "n3-tabi-ni",
+    "pattern": "〜たびに",
+    "meaning": "every time; whenever",
+    "formation": "V (dictionary) / N + の + たびに",
+    "explanation": "Every time one thing happens, another thing always happens too.",
+    "examples": [
+      {"japanese": "この曲を聞くたびに、高校時代を思い出す。", "english": "Every time I hear this song, I remember high school."},
+      {"japanese": "旅行のたびに、お土産を買いすぎてしまう。", "english": "Every time I travel, I end up buying too many souvenirs."}
+    ],
+    "prompt": "What always happens whenever you do a certain thing?"
+  },
+  {
+    "id": "n3-temo-kamawanai",
+    "pattern": "〜ても構わない",
+    "meaning": "it doesn't matter if; it's okay to",
+    "formation": "V-ても / い-adj-くても / な-adj・N + でも + 構わない",
+    "explanation": "Gives or asks permission, or expresses that something is acceptable. Slightly more formal than てもいい.",
+    "examples": [
+      {"japanese": "明日は少し遅れても構いません。", "english": "It's fine if you're a little late tomorrow."},
+      {"japanese": "安ければ、古くても構わない。", "english": "If it's cheap, I don't mind if it's old."}
+    ],
+    "prompt": "What would you be okay with, even if it's not perfect?"
+  },
+  {
+    "id": "n3-you-ni-iu",
+    "pattern": "〜ように言う",
+    "meaning": "to tell (someone) to do",
+    "formation": "V (dictionary / ない form) + ように + 言う / 頼む / 注意する",
+    "explanation": "Indirectly reports a request, instruction, or warning given to someone.",
+    "examples": [
+      {"japanese": "医者に、お酒を飲まないように言われた。", "english": "The doctor told me not to drink alcohol."},
+      {"japanese": "部長に、明日までに資料を作るように頼まれた。", "english": "My manager asked me to prepare the documents by tomorrow."}
+    ],
+    "prompt": "Did someone ask or tell you to do something today?"
+  },
+  {
+    "id": "n3-sae-ba",
+    "pattern": "〜さえ〜ば",
+    "meaning": "if only; as long as",
+    "formation": "N + さえ + V-ば / V-stem + さえすれば",
+    "explanation": "Indicates that a single condition is all that's needed for a result.",
+    "examples": [
+      {"japanese": "時間さえあれば、もっと旅行したい。", "english": "If only I had time, I'd travel more."},
+      {"japanese": "この薬を飲みさえすれば、すぐ治ります。", "english": "As long as you take this medicine, you'll recover soon."}
+    ],
+    "prompt": "What is the one thing you need to be happy or succeed?"
+  },
+  {
+    "id": "n3-toori-ni",
+    "pattern": "〜とおりに",
+    "meaning": "just as; in the way that",
+    "formation": "V (dictionary / た form) + とおりに; N + の + とおりに / N + どおりに",
+    "explanation": "Doing something exactly according to instructions, a plan, or an expectation.",
+    "examples": [
+      {"japanese": "説明書のとおりに組み立てた。", "english": "I assembled it exactly as the manual said."},
+      {"japanese": "今日は計画どおりに進まなかった。", "english": "Today didn't go according to plan."}
+    ],
+    "prompt": "Did today go as planned? Write about it."
+  }
+]
